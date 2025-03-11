@@ -9,4 +9,3 @@ class Product(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, Unique=True, index=True)
     price = Column(Float)
-    stock = Column(Integer)

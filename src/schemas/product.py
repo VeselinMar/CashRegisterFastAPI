@@ -3,7 +3,6 @@ from pydantic import BaseModel
 class ProductBase(BaseModel):
     name: str
     price: float
-    stock: int
 
 class ProductCreate(ProductBase):
     pass
